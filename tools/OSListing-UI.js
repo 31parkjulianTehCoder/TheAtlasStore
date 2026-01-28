@@ -1,3 +1,4 @@
+make.title(Info.name + " on Atlas");
 make.div("", { id: "navbar", styles: " height: 50px; background-color: lightgray " });
 make.setTarget($("navbar"));
 //navbar goes here
