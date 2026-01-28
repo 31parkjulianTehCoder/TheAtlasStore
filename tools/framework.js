@@ -1,4 +1,3 @@
-
 //framework thingy
 function $(i){ return document.getElementById(i) }
 function loadScript(x){
