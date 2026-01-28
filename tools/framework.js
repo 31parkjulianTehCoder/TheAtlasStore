@@ -72,4 +72,7 @@ const make = {
     button(i, p){
         this.newElement("button", i, p)
     },
+    title(i, p){
+        this.newElement("title", i, p)
+    },
 };
