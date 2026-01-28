@@ -39,6 +39,7 @@ const make = {
         if (p.src) m.src = p.src;
         if (p.styles) m.style = p.styles;
         if (p.onClick) m.onClick = p.onClick;
+        if (p.href) m.href = p.href;
         m.textContent = i;
         if (this.target === null){
             this.setTarget(document.body)
