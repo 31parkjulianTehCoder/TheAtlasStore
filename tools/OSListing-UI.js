@@ -1,6 +1,5 @@
 make.title(Info.name + " on Atlas");
-make.div("", { id: "navbar", styles: " height: 50px; background-color: lightgray " });
-make.setTarget($("navbar"));
+loadScript("/TheAtlasStore/tools/navbar-UI.js")
 //navbar goes here
 make.setTarget(document.body);
 make.h1(Info.name, { id: "atlas-name"});
