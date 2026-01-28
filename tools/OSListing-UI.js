@@ -1,6 +1,4 @@
 make.title(Info.name + " on Atlas");
-loadScript("/TheAtlasStore/tools/navbar-UI.js")
-//navbar goes here
 make.setTarget(document.body);
 make.h1(Info.name, { id: "atlas-name"});
 make.h3("By " + Info.creator, { id: "atlas-creator"});
