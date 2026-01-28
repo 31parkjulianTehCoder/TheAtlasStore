@@ -75,4 +75,7 @@ const make = {
     title(i, p){
         this.newElement("title", i, p)
     },
+    a(i, p){
+        this.newElement("a", i, p)
+    },
 };
