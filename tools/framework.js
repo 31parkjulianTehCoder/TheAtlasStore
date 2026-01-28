@@ -73,4 +73,3 @@ const make = {
         this.newElement("button", i, p)
     },
 };
-
