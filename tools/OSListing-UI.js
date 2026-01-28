@@ -1,5 +1,5 @@
 make.div("", { id: "navbar", styles: " height: 50px; background-color: lightgray " });
-make.setTarget($("navbar"))
+make.setTarget($("navbar"));
 //navbar goes here
 make.setTarget(document.body);
 make.h1(Info.name, { id: "atlas-name"});
@@ -13,7 +13,7 @@ make.button("Github Page", { id: "atlas-github" });
 make.button("View License", { id: "atlas-License" });
 make.button("Go to Website", { id: "atlas-website" });
 make.setTarget(document.body);
-$("atlas-fullscreen").addEventListener("click", () => alert("hey"))
-$("atlas-github").addEventListener("click", () => alert("hey"))
-$("atlas-License").addEventListener("click", () => alert("hey"))
-$("atlas-website").addEventListener("click", () => alert("hey"))
+$("atlas-fullscreen").addEventListener("click", () => alert("hey"));
+$("atlas-github").addEventListener("click", () => alert("hey"));
+$("atlas-License").addEventListener("click", () => alert("hey"));
+$("atlas-website").addEventListener("click", () => alert("hey"));
