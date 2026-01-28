@@ -1,4 +1,2 @@
-this is where the tw-packager compiled html files will be put
-
-
-when compiling, remember to tell it to start automatically, and to not show any control buttons
+this is where raw stuff goes
+like direct sb3s and compiled htmls for oses, and .sprite3s for apps and stuff
