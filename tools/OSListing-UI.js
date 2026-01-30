@@ -12,6 +12,6 @@ make.button("View License", { id: "atlas-License" });
 make.button("Go to Website", { id: "atlas-website" });
 make.setTarget(document.body);
 $("atlas-fullscreen").addEventListener("click", () => window.open(Info.previewLink, "_self"));
-$("atlas-github").addEventListener("click", () => window.open(Info.Github, "_self");
+$("atlas-github").addEventListener("click", () => window.open(Info.Github, "_self"));
 $("atlas-License").addEventListener("click", () => window.open(Info.License, "_self"));
 $("atlas-website").addEventListener("click", () => window.open(Info.Website, "_self"));
